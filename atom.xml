@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>码上暴富</title>
+  <icon>https://www.gravatar.com/avatar/7a0ef2db692d9e47044382fe9bc6f67b</icon>
+  <subtitle>加油</subtitle>
+  <link href="https://zhanghuachang.github.io/atom.xml" rel="self"/>
   
-  
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
+  <link href="https://zhanghuachang.github.io/"/>
   <updated>2021-10-13T13:09:33.525Z</updated>
-  <id>http://example.com/</id>
+  <id>https://zhanghuachang.github.io/</id>
   
   <author>
     <name>zhanghuachang</name>
-    
+    <email>1786265428@qq.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/10/13/hello-world/"/>
-    <id>http://example.com/2021/10/13/hello-world/</id>
+    <link href="https://zhanghuachang.github.io/2021/10/13/hello-world/"/>
+    <id>https://zhanghuachang.github.io/2021/10/13/hello-world/</id>
     <published>2021-10-13T13:09:33.525Z</published>
     <updated>2021-10-13T13:09:33.525Z</updated>
     
