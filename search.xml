@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Java单元测试总结</title>
-      <link href="/2021/10/13/Java%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/"/>
-      <url>/2021/10/13/Java%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/</url>
+      <title>Java Debug笔记</title>
+      <link href="/2021/10/20/Java-Debug%E7%AC%94%E8%AE%B0/"/>
+      <url>/2021/10/20/Java-Debug%E7%AC%94%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><strong>日常Debug遇到的问题：</strong></p><ol><li>从大量数据中找到我们需要的特定数据，比如从N次for循环中的某一个，一旦我们不小心跳过了，又需要重新循环很多次</li><li>本地启动的项目，突然一个远程请求打到自己本地服务，影响到别人的请求，也造成自己调试不便</li></ol><p><strong>举例解决如下：</strong></p><ol><li><p>右键断点处，在Condition里填写过滤条件，写法就是java的语法，如下图：</p><p> <img src="/2021/10/20/Java-Debug%E7%AC%94%E8%AE%B0/image-20211020170150162.png" alt="image-20211020170150162"></p> <img src="/2021/10/20/Java-Debug%E7%AC%94%E8%AE%B0/image-20211020170150162.png" class><p> 重新运行如下图：</p><p> <img src="/2021/10/20/Java-Debug%E7%AC%94%E8%AE%B0/image-20211020170241683.png" alt="image-20211020170241683"></p></li><li></li></ol>]]></content>
       
       
       <categories>
