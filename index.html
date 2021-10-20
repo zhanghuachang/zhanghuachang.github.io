@@ -105,6 +105,12 @@
                             </a>
                         </li>
                      
+                        <li>
+                            <a class="wave " href="/search">
+                                搜索
+                            </a>
+                        </li>
+                     
                     
                    
                 </ul>
@@ -146,8 +152,16 @@
               
           <!-- 分类 -->
           
+            <span class="post-category">
+              <a class="post-category-link" href="/categories/blog/">blog</a>
+            </span>
+          
 
           <!-- 标签 -->
+          
+            <span class="post-tags">
+              <ul class="post-tag-list" itemprop="keywords"><li class="post-tag-list-item"><a class="post-tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li></ul>
+            </span>
           
                     
         </section>
@@ -187,7 +201,7 @@
     <div class="widget">
         <div class="notice">
             <img class="notice-img" src="https://avatars.githubusercontent.com/u/33475060?v=4">
-            <p>心中有码！</p>
+            <p>热爱生活，心中有码！</p>
             
             <p class="notice-item">
                 <!-- github -->
@@ -226,9 +240,34 @@
 
     
         
+  <section class="widget-wrap">
+    <h3 class="widget-title">文章分类</h3>
+    <div class="widget">
+      <div class="categories-list">
+        
+           
+            
+              <a class="category-list-item" href="/categories/blog">
+                <span class="category-list-link">blog</span>
+                <span class="category-list-number">(1)</span>
+              </a>
+            
+          
+        
+      </div>
+    </div>
+  </section>
+
 
     
         
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li></ul>
+    </div>
+  </div>
+
 
     
         
@@ -325,7 +364,7 @@
 <script>
     var now = new Date();
     function createtime() {
-      var grt = new Date("10/12/2020 00:00:00");//此处修改你的建站时间或者网站上线时间 
+      var grt = new Date("10/13/2021 10:00:00");//此处修改你的建站时间或者网站上线时间 
       now.setTime(now.getTime() + 250);
       days = (now - grt) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
       document.getElementById("timeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
